@@ -104,6 +104,9 @@ gulp.task('copy', function() {
 
   gulp.src(SRC + 'libs/**/*.*')
     .pipe(gulp.dest(DEST + 'libs'));
+
+  gulp.src(SRC + 'fonts/**/*.*')
+    .pipe(gulp.dest(DEST + 'fonts'));
 });
 
 // Default Task
